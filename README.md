@@ -1,10 +1,62 @@
-# Template Assignment
+# Guessing Game
 
 ## Problem Statement
 
+Create a program that will give the user 16 options to choose from, the program should ask the user 4 yes/no questions before correctly telling the user what they chose.
+
+Be creative with your options, and questions. It will be tricky to design something like this but there are plenty of places you can pull inspiration from! Try looking up "dichotomous keys" on google. They might look familiar if you have taken biology already.
+
+You should structure your program as a real game. You should welcome the user, and give instructions before asking questions.
+
+### Extra Credit
+
+It is possible to implement this using only 4 distinct questions. If you would like to qualify for extra credit, you will need to come up with 4 questions that can uniquely identify the 16 different items.
+
+To earn the extra credit and prove you did this correctly, you will need to prompt the user for input before entering ANY if statements. If you get user input inside any conditional block of code, you will not earn this extra credit.
+
 ## Input Description
 
+I will only be inputting `yes` or `no` into the program.
+
+You may assume these are the only two inputs. You may also assume that if the input is not `yes` it is `no`, you are not required to do more advanced user proofing at this time.
+
 ## Sample Input/Output
+
+```
+Welcome to the Guessing Game!
+
+Please select 1 of the following options, after only 4 questions I can guess what you chose with 100% certainty!
+
+   1.  ??
+   2.  ??
+   3.  ??
+   4.  ??
+   5.  ??
+   6.  ??
+   7.  ??
+   8.  ??
+   9.  ??
+   10. ??
+   11. ??
+   12. ??
+   13. ??
+   14. ??
+   15. ??
+   16. ??
+
+Please answer the following 4 questions with `yes` or `no`.
+
+Is it true that _______ ? yes
+
+Is your object ____________ ? no
+
+Did you choose something ______________ ? no
+
+Is it something that ___________ ? yes
+
+You chose ??!
+
+```
 
 ## Submission
 
